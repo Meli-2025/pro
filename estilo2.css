@@ -1,0 +1,39 @@
+body{
+    padding: 10px;
+    background-color: #e59dfb;
+    background-image: url(fondo3.avif);
+    padding: 6px 10px;
+    border-width: 3px;
+    border-color: rgb(66, 39, 92);
+    border-style: solid;
+    border-radius: 60px;
+    color:  rgb(66, 39, 92);
+}
+h1{
+    background-color: rgb(221, 192, 248);
+    padding: 6px 10px;
+    border-width: 3px;
+    border-color: rgb(66, 39, 92);
+    border-style: solid;
+    border-radius: 60px;
+    color:  rgb(66, 39, 92);
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+text-align: center;
+}
+td{
+
+    background-color: rgb(221, 192, 248);
+    padding: 6px 10px;
+    border-width: 3px;
+    border-color: rgb(66, 39, 92);
+    border-style: solid;
+    border-radius: 60px;
+    color:  rgb(66, 39, 92);
+}
+button{
+    border-color: rgb(66, 39, 92);
+    border-style: solid;
+    border-radius: 60px;
+    
+}

@@ -1,0 +1,20 @@
+body {
+background-color: rgb(203, 151, 251);
+}
+h2{
+   background-color: rgb(250, 191, 224);
+    border-color: rgb(111, 64, 156);
+    border-style: solid;
+    border-radius: 60px;
+    
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 6px 10px;
+    border-width: 3px;
+    background-color: rgb(250, 133, 197);
+    border-color: rgb(111, 64, 156);
+    border-style: solid;
+    border-radius: 50px;
+    color: rgb(28, 4, 51);
+}

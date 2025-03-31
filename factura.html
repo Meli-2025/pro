@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+    <link rel="stylesheet" href="estilo3.css">
+</head>
+<body align="center">
+  
+
+<form>
+<h1 align="center"> Factura de productos</h1>
+
+<label for="codigo">Codigo:</label>
+  <input type="text" placeholder="Escriba su codigo" required>
+  <br> <br>
+  <label for="Nombre">Nombre:</label>
+  <input type="text" placeholder="Escriba su nombre" required name="nombre">
+  <br> <br>
+
+  <label for="Genero">Seleccione genero:</label>
+  <select name="Genero"placeholder="Genero" required>
+   
+<option>Masculino</option>
+<option> Femenino</option>
+</select>
+<input type="date" placeholder="Seleccione fecha actual" required>
+
+<br> 
+
+  <label for="producto">Seleccione productos:</label>
+<select name="Productos" placeholder="Productos" required>
+<option >Frijoles</option>
+<option >Maiz</option>
+<option >Azucar</option>
+<option>Miel</option>
+<option>Atun</option>
+<option>Trigo</option>
+</select>
+
+<br> <br>
+<label for="Precio del producto"> Precio:</label>
+<input type="text" title="Ingrese precio"id="precio" placeholder="Precio" required  >
+<label for="Cantidad de productos">Cantidad:</label>
+<input type="text" title="Ingrese cantidad" id="cantidad" placeholder="La cantidad de productos" required >
+
+
+
+<label for="Subtotal"> Subtotal:</label>
+<input type="text"placeholder="El sub total"required id="sub" >
+<button type="button" onclick="cal_subtotal()">Calcular subtotal</button>
+
+<input type="text" placeholder="El impuesto" required id="impuesto">
+
+
+ 
+
+<a href="index.html" title="Retorna a hoja principal">Hoja principal</a> 
+
+
+  <input type="text" placeholder="El total" readonly id="total">
+  <button type="button" onclick="Cal_total()">Calcular el total</button>
+  <br>
+  
+  <button>Nueva factura</button>
+  <button>Nuevo calculo</button>
+  <button>Cerrar formulario</button>
+
+<label for="Tipo de pago">Tipo de pago:</label>
+<select name="Tipo de pago"placeholder="Tipo de pago"required>
+<option>Cretito</option>
+<option >Debito</option>
+<option >Efectivo</option>
+
+
+
+
+
+
+
+ 
+</form>
+<script src="java2.js"></script>
+</body>
+</html>
